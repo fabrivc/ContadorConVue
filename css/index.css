@@ -1,0 +1,16 @@
+body{
+    background-color:beige;
+}
+.contenedorPrincipal{
+    text-align:center;
+    
+}
+.menos{
+    background-color:crimson;
+}
+.mas{
+    background-color:lightgreen;
+}
+.restaurar{
+    background-color:skyblue;
+}

@@ -1,3 +1,31 @@
-<html>
-    Hola!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador de Fabri</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+  </head>
+  <body>
+    <div id="app" class="contenedorPrincipal">
+     
+      <h1>Contador</h1>
+      <p> {{a}} </p> 
+
+    <div>
+
+<input type="button" class="menos" value="-" v-on:click="restarUno">
+
+<input type="button" class="mas" value="+" v-on:click="sumarUno">
+
+<input type="button" class="restaurar" value="Restaurar contador" v-on:click="restaurar">
+
+
+  </div>
+</div> 
+<script src="js/app.js"></script>
+  </body>
 </html>
+
